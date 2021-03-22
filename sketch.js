@@ -35,6 +35,8 @@ function setup(){
 
     bird = new Bird(100,100);
 
+    ground2 = new Ground(150,305,300,170);
+
 }
 
 function draw(){
@@ -43,9 +45,11 @@ function draw(){
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
     console.log(box2.body.angle);
+    
     box1.display();
     box2.display();
     ground.display();
+    ground2.display();
     pig1.display();
     log1.display();
 
